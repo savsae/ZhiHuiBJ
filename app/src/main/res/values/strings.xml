@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ZhiHuiBJ</string>
+    <string name="app_name">智慧北京</string>
     <string name="title_activity_splash">Sign in</string>
 
     <!-- Strings related to login -->
@@ -14,4 +14,5 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="guideBtnName">开始体验</string>
 </resources>

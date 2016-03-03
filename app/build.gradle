@@ -17,6 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -24,4 +25,14 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
+    compile 'org.xutils:xutils:3.3.20' //xutils 3.0
+//    compile 'com.android.support:support-v4:23.1.1' 有了v7就不需要v4了  v7向下兼容
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.google.code.gson:gson:2.6.2' //gson
+    compile 'com.squareup.okio:okio:1.6.0' //增强 java.io 和 java.nio
+    compile 'com.squareup.okhttp3:okhttp:3.2.0' //okhttp 一个现代，快速，高效的Http client，支持HTTP/2以及SPDY，它为你做了很多的事情
+    compile 'com.mcxiaoke.volley:library:1.0.19' //volley Volley是一个简化网络任务的库。他负责处理请求，加载，缓存，线程，同步等问题
+    compile 'com.viewpagerindicator:library:2.4.1'  //viewpagerindicator
+    compile 'com.squareup.picasso:picasso:2.5.2'
+//    compile 'com.nostra13.universalimageloader:1.9.5'
 }
